@@ -5,6 +5,8 @@
  * Please put your name, date, and brief description of this class here.
  */
 package edu.frostburg.cosc310.lab00;
+import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Your documentation should begin here.
@@ -50,8 +52,17 @@ public class KennedySteveLab00 implements Lab00 {
     }
 
     @Override
-    public long problem2() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public long problem2(int size) {
+        List<String> myList = new ArrayList<>();
+        long start = System.currentTimeMillis();
+
+        for (int i=0; i<size; i++) {
+            myList.add(Integer.toString(i));
+        }
+
+        long end = System.currentTimeMillis();
+        return end - start;
+
     }
     
 }
