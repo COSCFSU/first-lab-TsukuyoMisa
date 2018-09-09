@@ -30,5 +30,6 @@ public interface Lab00 {
     
     public long problem0(int size);
     public long problem1(int size);
-    public long problem2();
+    public long problem2(int size);
+    public long problem3(int size);
 }
