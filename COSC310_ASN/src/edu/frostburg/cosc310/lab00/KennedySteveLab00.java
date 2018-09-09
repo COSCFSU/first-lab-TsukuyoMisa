@@ -19,7 +19,7 @@ public class KennedySteveLab00 implements Lab00 {
      */
     @Override
     public long problem0(int size) {
-        System.out.println("This is just an example, but please follow this template. ");
+        System.out.println("This is just an example, but please follow this template.");
         String s = "";
         long start = System.currentTimeMillis();
 
