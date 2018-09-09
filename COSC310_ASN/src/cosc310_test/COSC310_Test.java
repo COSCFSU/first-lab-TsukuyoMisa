@@ -20,8 +20,9 @@ public class COSC310_Test {
         // TODO code application logic here
         KennedySteveLab00 lab = new KennedySteveLab00();
         System.out.println(lab.problem0(9999));
-        System.out.println(lab.problem1(9999999));
-        System.out.println(lab.problem2(9999999));
+        System.out.println(lab.problem1(9999));
+        System.out.println(lab.problem2(9999));
+        System.out.println(lab.problem3(9999));
     }
     
 }
